@@ -32,7 +32,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: nginx
-        image: uzack12/nginx:v1
+        image: gcr.io/aif-staging/nginx-reverse
         ports:
         - containerPort: 80
         resources:
