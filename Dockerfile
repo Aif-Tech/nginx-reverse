@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 nginx:alpine
+FROM nginx:alpine
 
 ENV HOST_PORT=80
 ENV REVERSE_HOST=http://info.cern.ch/
